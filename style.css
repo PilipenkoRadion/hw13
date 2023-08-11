@@ -1,11 +1,47 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(0, 191, 255);
 }
 .card{
-    width: 30%;
-    display: inline-block;
-    background-color: #d7e5fa;
+    background-color: white;
+    width: 400px;
     border: 1px solid black;
-    margin: 20px;
     border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+    transition: 0.4s;
+}
+.card:hover{
+    box-shadow: 0 0 20px black;
+    width: 450px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.text{
+    padding: 20px;
+}
+h2{
+    font-size: 30px;
+    color: rgb(166, 203, 0);
+    margin-bottom: 16px; 
+}
+p{
+    font-size: 24px;
+    color: rgb(145, 21, 203);
+    margin-bottom: 16px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(21, 29, 142);
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+
+}
+a:hover{
+    background-color: rgb(58, 158, 0);
 }
